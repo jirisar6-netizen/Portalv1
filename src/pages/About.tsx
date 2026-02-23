@@ -9,7 +9,7 @@ export default function About() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         
-        {/* TENTO BLOK OBSAHUJE TVŮJ PŘÍBĚH */}
+        {/* TENTO BLOK OBSAHUJE TVŮJ OPRAVENÝ PŘÍBĚH */}
         <div>
           <h2 className="text-4xl font-extrabold mb-6">Tvoříme to <span className="text-[#e95420]">společně.</span></h2>
           <div className="bg-white/5 backdrop-blur-md p-8 rounded-[32px] border border-white/10 relative overflow-hidden mb-8">
@@ -17,7 +17,7 @@ export default function About() {
             
             <p className="opacity-90 leading-relaxed mb-6 text-lg relative z-10">
               Piktos nevyvíjí žádná velká korporace s obřím rozpočtem. Jsem 35letý táta samoživitel. 
-              Mám ve své péči syna Jiříka a také malého, tříměsíčního Štěpánka. K tomu žiji se svým otcem, o kterého se musím starat.
+              Mám ve své péči syna Jiříka a se svým druhým, tříměsíčním synem Štěpánkem, který žije s maminkou, se vídám dvakrát týdně. K tomu žiji se svým otcem, o kterého se musím starat.
             </p>
             
             <p className="opacity-80 leading-relaxed mb-6 relative z-10">
@@ -60,24 +60,5 @@ export default function About() {
             <form onSubmit={(e) => { e.preventDefault(); alert('Děkuji za zprávu! Formulář brzy napojíme na databázi.'); }}>
               <div className="mb-5">
                 <label className="block text-[10px] uppercase tracking-widest opacity-50 mb-2 font-bold ml-2">Vaše jméno / Přezdívka</label>
-                <input type="text" placeholder="Jan Novák" className="w-full bg-white/5 border border-white/10 text-white rounded-2xl p-4 outline-none focus:border-[#e95420] focus:bg-[#e95420]/5 transition-all" required />
-              </div>
-              <div className="mb-5">
-                <label className="block text-[10px] uppercase tracking-widest opacity-50 mb-2 font-bold ml-2">E-mail pro odpověď</label>
-                <input type="email" placeholder="vas@email.cz" className="w-full bg-white/5 border border-white/10 text-white rounded-2xl p-4 outline-none focus:border-[#e95420] focus:bg-[#e95420]/5 transition-all" required />
-              </div>
-              <div className="mb-8">
-                <label className="block text-[10px] uppercase tracking-widest opacity-50 mb-2 font-bold ml-2">Zpráva nebo nápady</label>
-                <textarea rows={4} placeholder="Zkusil jsem to se synem a chtěli bychom přidat..." className="w-full bg-white/5 border border-white/10 text-white rounded-2xl p-4 outline-none focus:border-[#e95420] focus:bg-[#e95420]/5 transition-all" required></textarea>
-              </div>
-              <button type="submit" className="w-full bg-[#e95420] text-white font-black uppercase tracking-widest text-sm py-5 rounded-2xl hover:bg-[#ff6a3d] hover:shadow-[0_0_20px_rgba(233,84,32,0.4)] transition-all">
-                Odeslat a zapojit se
-              </button>
-            </form>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  );
-}
+                <input type="text" placeholder="Jan Novák" className="w-full bg-white/5 border border-white/10 text-
+                
